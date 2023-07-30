@@ -1,0 +1,988 @@
+{
+  "structure": [
+    {
+      "width": 14,
+      "height": 9,
+      "words": [
+        {
+          "word": "MINIMAX",
+          "letters": [
+            {
+              "x": 7,
+              "y": 1,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 7,
+              "y": 7,
+              "letter": "X"
+            }
+          ]
+        },
+        {
+          "word": "INTELLIGENCE",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "letter": "T"
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "letter": "G"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "letter": "C"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "INFER",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "letter": "F"
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "letter": "E"
+            },
+            {
+              "x": 1,
+              "y": 6,
+              "letter": "R"
+            }
+          ]
+        },
+        {
+          "word": "SEARCH",
+          "letters": [
+            {
+              "x": 5,
+              "y": 6,
+              "letter": "S"
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "letter": "E"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "letter": "R"
+            },
+            {
+              "x": 9,
+              "y": 6,
+              "letter": "C"
+            },
+            {
+              "x": 10,
+              "y": 6,
+              "letter": "H"
+            }
+          ]
+        },
+        {
+          "word": "RESOLVE",
+          "letters": [
+            {
+              "x": 12,
+              "y": 1,
+              "letter": "R"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 12,
+              "y": 3,
+              "letter": "S"
+            },
+            {
+              "x": 12,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 12,
+              "y": 5,
+              "letter": "L"
+            },
+            {
+              "x": 12,
+              "y": 6,
+              "letter": "V"
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "LOGIC",
+          "letters": [
+            {
+              "x": 4,
+              "y": 4,
+              "letter": "L"
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "letter": "G"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "letter": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 14,
+      "height": 9,
+      "words": [
+        {
+          "word": "MINIMAX",
+          "letters": [
+            {
+              "x": 7,
+              "y": 1,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 7,
+              "y": 7,
+              "letter": "X"
+            }
+          ]
+        },
+        {
+          "word": "INTELLIGENCE",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "letter": "T"
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "letter": "G"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "letter": "C"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "INFER",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "letter": "F"
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "letter": "E"
+            },
+            {
+              "x": 1,
+              "y": 6,
+              "letter": "R"
+            }
+          ]
+        },
+        {
+          "word": "SEARCH",
+          "letters": [
+            {
+              "x": 5,
+              "y": 6,
+              "letter": "S"
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "letter": "E"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "letter": "R"
+            },
+            {
+              "x": 9,
+              "y": 6,
+              "letter": "C"
+            },
+            {
+              "x": 10,
+              "y": 6,
+              "letter": "H"
+            }
+          ]
+        },
+        {
+          "word": "RESOLVE",
+          "letters": [
+            {
+              "x": 12,
+              "y": 1,
+              "letter": "R"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 12,
+              "y": 3,
+              "letter": "S"
+            },
+            {
+              "x": 12,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 12,
+              "y": 5,
+              "letter": "L"
+            },
+            {
+              "x": 12,
+              "y": 6,
+              "letter": "V"
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "LOGIC",
+          "letters": [
+            {
+              "x": 4,
+              "y": 4,
+              "letter": "L"
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "letter": "G"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "letter": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 14,
+      "height": 9,
+      "words": [
+        {
+          "word": "MINIMAX",
+          "letters": [
+            {
+              "x": 7,
+              "y": 1,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 7,
+              "y": 7,
+              "letter": "X"
+            }
+          ]
+        },
+        {
+          "word": "INTELLIGENCE",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "letter": "T"
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "letter": "G"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "letter": "C"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "INFER",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "letter": "F"
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "letter": "E"
+            },
+            {
+              "x": 1,
+              "y": 6,
+              "letter": "R"
+            }
+          ]
+        },
+        {
+          "word": "SEARCH",
+          "letters": [
+            {
+              "x": 5,
+              "y": 6,
+              "letter": "S"
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "letter": "E"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "letter": "R"
+            },
+            {
+              "x": 9,
+              "y": 6,
+              "letter": "C"
+            },
+            {
+              "x": 10,
+              "y": 6,
+              "letter": "H"
+            }
+          ]
+        },
+        {
+          "word": "RESOLVE",
+          "letters": [
+            {
+              "x": 12,
+              "y": 1,
+              "letter": "R"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 12,
+              "y": 3,
+              "letter": "S"
+            },
+            {
+              "x": 12,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 12,
+              "y": 5,
+              "letter": "L"
+            },
+            {
+              "x": 12,
+              "y": 6,
+              "letter": "V"
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "LOGIC",
+          "letters": [
+            {
+              "x": 4,
+              "y": 4,
+              "letter": "L"
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "letter": "G"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "letter": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 14,
+      "height": 9,
+      "words": [
+        {
+          "word": "MINIMAX",
+          "letters": [
+            {
+              "x": 7,
+              "y": 1,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "letter": "M"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 7,
+              "y": 7,
+              "letter": "X"
+            }
+          ]
+        },
+        {
+          "word": "INTELLIGENCE",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "letter": "T"
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "letter": "L"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "letter": "G"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "letter": "N"
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "letter": "C"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "INFER",
+          "letters": [
+            {
+              "x": 1,
+              "y": 2,
+              "letter": "I"
+            },
+            {
+              "x": 1,
+              "y": 3,
+              "letter": "N"
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "letter": "F"
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "letter": "E"
+            },
+            {
+              "x": 1,
+              "y": 6,
+              "letter": "R"
+            }
+          ]
+        },
+        {
+          "word": "SEARCH",
+          "letters": [
+            {
+              "x": 5,
+              "y": 6,
+              "letter": "S"
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "letter": "E"
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "letter": "A"
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "letter": "R"
+            },
+            {
+              "x": 9,
+              "y": 6,
+              "letter": "C"
+            },
+            {
+              "x": 10,
+              "y": 6,
+              "letter": "H"
+            }
+          ]
+        },
+        {
+          "word": "RESOLVE",
+          "letters": [
+            {
+              "x": 12,
+              "y": 1,
+              "letter": "R"
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "letter": "E"
+            },
+            {
+              "x": 12,
+              "y": 3,
+              "letter": "S"
+            },
+            {
+              "x": 12,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 12,
+              "y": 5,
+              "letter": "L"
+            },
+            {
+              "x": 12,
+              "y": 6,
+              "letter": "V"
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "letter": "E"
+            }
+          ]
+        },
+        {
+          "word": "LOGIC",
+          "letters": [
+            {
+              "x": 4,
+              "y": 4,
+              "letter": "L"
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "letter": "O"
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "letter": "G"
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "letter": "I"
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "letter": "C"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

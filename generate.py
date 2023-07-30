@@ -1,5 +1,6 @@
 import sys
-
+import os
+import json
 from crossword import *
 
 
@@ -36,7 +37,7 @@ class CrosswordCreator():
     def find_words(self, matrix, words):
         width = len(matrix[0])
         height = len(matrix)
-        output = {"structure": {"width": width, "height": height, "words": []}}
+        output = {"width": width, "height": height, "words": []}
 
         for word in words:
             word_found = False
@@ -61,11 +62,11 @@ class CrosswordCreator():
                             letters.append({"x": i, "y": j+k, "letter": word[k]})
 
             if word_found:
-                output["structure"]["words"].append({"word": word, "letters": letters})
+                output["words"].append({"word": word, "letters": letters})
 
         return output
-#######
-    def print(self, assignment):
+    
+    def transform_to_json(self, assignment):
         """
         Print crossword assignment to the terminal.
         """
@@ -74,19 +75,15 @@ class CrosswordCreator():
 
         output = self.find_words(letters,words)
 
-        import json 
-        json_object = json.dumps(output) 
-        print(json_object)
+        return output
+    
+    def save_json(self, output):
+        if not os.path.exists('output'):
+          os.makedirs('output')
 
-       
-        for i in range(self.crossword.height):
-            for j in range(self.crossword.width):
-                if self.crossword.structure[i][j]:
-                    print(letters[i][j] or " ", end="")
-                else:
-                    print("█", end="")
-            print()
-
+        with open('output/boards.json', 'w') as json_file:
+            json.dump(output, json_file, indent=4)
+        
     def save(self, assignment, filename):
         """
         Save crossword assignment to an image file.
@@ -343,23 +340,29 @@ def main():
         sys.exit("Usage: python generate.py structure words [output]")
 
     # Parse command-line arguments
-    structure = sys.argv[1]
+    boards_path = sys.argv[1]
     words = sys.argv[2]
     output = sys.argv[3] if len(sys.argv) == 4 else None
 
-    # Generate crossword
-    crossword = Crossword(structure, words)
-    creator = CrosswordCreator(crossword)
-    assignment = creator.solve()
-    print(assignment)
+    boards_files = os.listdir(boards_path)
+    boards = []
+    for board_file in boards_files:
 
-    # Print result
-    if assignment is None:
-        print("No solution.")
-    else:
-        creator.print(assignment)
-        if output:
-            creator.save(assignment, output)
-
+      file_path = os.path.join(boards_path, board_file)
+      crossword = Crossword(file_path, words)
+      creator = CrosswordCreator(crossword)
+      assignment = creator.solve()
+      
+      # Print result
+      if assignment is None:
+          print("No solution.")
+      else:
+          ouput = creator.transform_to_json(assignment)
+          boards.append(ouput)
+          if output:
+              creator.save(assignment, output)
+    
+    creator.save_json(boards)
+    
 if __name__ == "__main__":
     main()

@@ -1,117 +1,103 @@
-[
-    [None, None, None, None, None, None, None, None, None, None, None, None, None, None],
-    [None, None, None, None, None, None, None, 'M', None, None, None, None, 'N', None],
-    [None, 'I', 'N', 'T', 'E', 'L', 'L', 'I', 'G', 'E', 'N', 'C', 'E', None],
-    [None, 'N', None, None, None, None, None, 'N', None, None, None, None, 'T', None],
-    [None, 'F', None, None, 'L', 'O', 'G', 'I', 'C', None, None, None, 'W', None],
-    [None, 'E', None, None, None, None, None, 'M', None, None, None, None, 'O', None],
-    [None, 'R', None, None, None, 'S', 'E', 'A', 'R', 'C', 'H', None, 'R', None],
-    [None, None, None, None, None, None, None, 'X', None, None, None, None, 'K', None],
-    [None, None, None, None, None, None, None, None, None, None, None, None, None, None]
-]
-
-
-
 {
-	"structure": {
-		"width": 13,
-		"height": 8,
-		"words": [{
-				"word": "Intelligence",
-				"letters": [{
-						"x": 1,
-						"y": 2,
-						"letter": "I"
-					},
-					{
-						"x": 2,
-						"y": 2,
-						"letter": "N"
-					},
-					{
-						"x": 3,
-						"y": 2,
-						"letter": "T"
-					},
-					{
-						"x": 4,
-						"y": 2,
-						"letter": "E"
-					},
-					{
-						"x": 5,
-						"y": 2,
-						"letter": "L"
-					},
-					{
-						"x": 6,
-						"y": 2,
-						"letter": "L"
-					},
-					{
-						"x": 7,
-						"y": 2,
-						"letter": "I"
-					},
-					{
-						"x": 8,
-						"y": 2,
-						"letter": "G"
-					},
-					{
-						"x": 9,
-						"y": 2,
-						"letter": "E"
-					},
-					{
-						"x": 10,
-						"y": 2,
-						"letter": "N"
-					},
-					{
-						"x": 11,
-						"y": 2,
-						"letter": "C"
-					},
-					{
-						"x": 12,
-						"y": 2,
-						"letter": "E"
-					}
-				]
-			}, {
-				"word": "Infer",
-				"letters": [{
-						"x": 1,
-						"y": 2,
-						"letter": "I"
-					},
-					{
-						"x": 1,
-						"y": 3,
-						"letter": "N"
-					},
-					{
-						"x": 1,
-						"y": 4,
-						"letter": "F"
-					},
-					{
-						"x": 1,
-						"y": 5,
-						"letter": "E"
-					},
-					{
-						"x": 1,
-						"y": 6,
-						"letter": "R"
-					}
-				]
-
-			}
-
-		]
-	}
+  "structure": {
+    "width": 13,
+    "height": 8,
+    "words": [
+      {
+        "word": "Intelligence",
+        "letters": [
+          {
+            "x": 1,
+            "y": 2,
+            "letter": "I"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "letter": "N"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "letter": "T"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "letter": "E"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "letter": "L"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "letter": "L"
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "letter": "I"
+          },
+          {
+            "x": 8,
+            "y": 2,
+            "letter": "G"
+          },
+          {
+            "x": 9,
+            "y": 2,
+            "letter": "E"
+          },
+          {
+            "x": 10,
+            "y": 2,
+            "letter": "N"
+          },
+          {
+            "x": 11,
+            "y": 2,
+            "letter": "C"
+          },
+          {
+            "x": 12,
+            "y": 2,
+            "letter": "E"
+          }
+        ]
+      },
+      {
+        "word": "Infer",
+        "letters": [
+          {
+            "x": 1,
+            "y": 2,
+            "letter": "I"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "letter": "N"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "letter": "F"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "letter": "E"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "letter": "R"
+          }
+        ]
+      }
+    ]
+  }
 }
-
-
