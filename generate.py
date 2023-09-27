@@ -1,9 +1,12 @@
 import sys
 import os
 import json
+from dotenv import load_dotenv
+import os
+import requests
 from crossword import *
 
-
+load_dotenv()
 class CrosswordCreator():
 
     def __init__(self, crossword):
@@ -343,6 +346,7 @@ def main():
     boards_path = sys.argv[1]
     words = sys.argv[2]
     output = sys.argv[3] if len(sys.argv) == 4 else None
+    API_URL = os.getenv('API_URL')
 
     boards_files = os.listdir(boards_path)
     boards = []
@@ -363,6 +367,8 @@ def main():
               creator.save(assignment, output)
     
     creator.save_json(boards)
-    
+    #response = requests.post(API_URL, data=json.dumps(boards), headers={'Content-type': 'application/json'})
+    #print(response.status_code)
+
 if __name__ == "__main__":
     main()
